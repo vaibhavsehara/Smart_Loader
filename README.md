@@ -20,7 +20,7 @@ To use SmartLoader, follow these steps:
 Execute SmartLoader with the target ELF executable as the command-line argument:
 
 bash
-Copy code
+
 ./smartloader <target_executable>
 Replace <target_executable> with the name of the ELF executable you want to run.
 
@@ -37,7 +37,7 @@ Example
 Let's say you want to execute an ELF executable named "fib":
 
 bash
-Copy code
+
 ./smartloader fib
 SmartLoader will run the "fib" program, handle segmentation faults, and display the page fault statistics along with the program's output.
 
